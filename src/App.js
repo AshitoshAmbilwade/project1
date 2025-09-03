@@ -1,25 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
+import Header from './components/Header';
+import About from './components/About';
+import Contact from './components/Contact';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header title="My App" />
+      <Home
+        heading="Welcome to My App"
+        subtitle="This is the home page where we make learning React practical and fun!"
+      />
+      <About features={["Fast Performance", "Beautiful UI", "Easy to Learn"]} />
+      <Contact />
+    </>
   );
-}
-
+};
 export default App;

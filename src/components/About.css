@@ -1,0 +1,30 @@
+.about {
+  background: #f9f9f9;
+  padding: 2em;
+  text-align: center;
+}
+
+.about h2 {
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1.5em;
+}
+
+.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about li {
+  background: #ff9800;
+  color: white;
+  padding: 0.7em 1em;
+  margin: 0.5em auto;
+  max-width: 300px;
+  border-radius: 5px;
+}
